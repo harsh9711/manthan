@@ -18,8 +18,6 @@
     position: relative;
   }
   
-  
-  
   nav {
     display: flex;
     align-items: center;
@@ -30,6 +28,7 @@
   nav ul {
     display: flex;
   }
+  
   
   nav .logo {
     font-family: "Poppins", sans-serif;
@@ -44,6 +43,11 @@
     list-style: none;
     margin-right: 100px;
   }
+  .nav-items li:hover{
+    color: yellow;
+    background-color: red;
+    
+  }
   
   .nav-items li:nth-last-of-type(1) {
     margin: 0;
@@ -55,6 +59,7 @@
     font-family: "Poppins", sans-serif;
     text-decoration: none;
   }
+  
   
   /* Header */
   
@@ -139,10 +144,6 @@
     z-index: 100;
   }
   
-  header .hero-image img:hover {
-    transform: rotate(-6deg);
-  }
-  
   header .hero-image .photo-bg {
     position: absolute;
     width: 500px;
@@ -186,32 +187,38 @@
 
 #clients{
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center; 
+   align-items: center; 
 }
-
-
 
  
 .h-primary{
     font-family: 'Bree Serif', serif;
     font-size: 3.8rem;
-    padding: 299px;
+    padding: 29px;
 text-align: center;
     display: block;
 }
 .client-item2{
   text-align: center;
-  padding: 20px;
+  padding: 200px;
   margin: 20px;
 }
 .client-item1 img {
   border-radius: 50%;
-  margin: 82px;
+ margin: 82px;
   height: 187px;
   padding: -38px;
 } 
 .client-item3{
   text-align: center
 } 
-
+#link{
+  height: 40px;
+  width: 40px;
+  margin: 0%;
+justify-content: center;
+}
+.client-item1 a{
+  text-align: center;
+}
